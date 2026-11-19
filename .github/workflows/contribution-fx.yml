@@ -16,7 +16,7 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/fx1.svg?theme=fx1&mode=dark&background=#0d1117
+            dist/fx2.svg?theme=fx2&background=#ffffff
 
       - uses: crazy-max/ghaction-github-pages@v5
         with:
